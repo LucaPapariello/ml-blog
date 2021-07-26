@@ -1,1 +1,1 @@
-Sitemap: https://lucapapariello.github.io/ml-blogs/sitemap.xml
+Sitemap: https://lucapapariello.github.io/ml-blog/sitemap.xml
