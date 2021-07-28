@@ -7,7 +7,7 @@
 
 # My little blog
 
-_powered by [fastpages](https://github.com/fastai/fastpages)_
+Welcome to my little blog about machine learning and data science. It's powered by the awesome _[fastpages](https://github.com/fastai/fastpages)_! 
 
 ## About the blog
 
