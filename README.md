@@ -7,10 +7,12 @@
 
 # My little blog
 
-Welcome to my little blog about machine learning and data science. It's powered by the awesome _[fastpages](https://github.com/fastai/fastpages)_! 
+Welcome to my little blog about machine learning and data science!
 
 ## About the blog
 
 After repeatedly finding help in a very welcoming community, I thought it was time to give back some of that warmth through this blog. It can be seen as a collection of personal notes and/or tricks discovered while working on my projects.
 
 I do want to avoid adding noise to a field that is already very crowded and full of excellent resources. It is for this reason that I will try to post only material that I could not find elsewhere and that might be useful to people in my past situation.
+
+This blog is powered by the awesome _[fastpages](https://github.com/fastai/fastpages)_.
