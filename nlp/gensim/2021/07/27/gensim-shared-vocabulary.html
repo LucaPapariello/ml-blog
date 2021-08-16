@@ -10,13 +10,13 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="A brief illustration of how to share a common vocabulary among different Gensim models." />
 <meta property="og:description" content="A brief illustration of how to share a common vocabulary among different Gensim models." />
-<link rel="canonical" href="https://lucapapariello.github.io/ml-blog/nlp/gensim/2020/07/27/gensim-shared-vocabulary.html" />
-<meta property="og:url" content="https://lucapapariello.github.io/ml-blog/nlp/gensim/2020/07/27/gensim-shared-vocabulary.html" />
+<link rel="canonical" href="https://lucapapariello.github.io/ml-blog/nlp/gensim/2021/07/27/gensim-shared-vocabulary.html" />
+<meta property="og:url" content="https://lucapapariello.github.io/ml-blog/nlp/gensim/2021/07/27/gensim-shared-vocabulary.html" />
 <meta property="og:site_name" content="Luca Papariello blog" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2020-07-27T00:00:00-05:00" />
+<meta property="article:published_time" content="2021-07-27T00:00:00-05:00" />
 <script type="application/ld+json">
-{"url":"https://lucapapariello.github.io/ml-blog/nlp/gensim/2020/07/27/gensim-shared-vocabulary.html","@type":"BlogPosting","headline":"Gensim: share vocabulary across models","dateModified":"2020-07-27T00:00:00-05:00","datePublished":"2020-07-27T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://lucapapariello.github.io/ml-blog/nlp/gensim/2020/07/27/gensim-shared-vocabulary.html"},"description":"A brief illustration of how to share a common vocabulary among different Gensim models.","@context":"https://schema.org"}</script>
+{"url":"https://lucapapariello.github.io/ml-blog/nlp/gensim/2021/07/27/gensim-shared-vocabulary.html","@type":"BlogPosting","headline":"Gensim: share vocabulary across models","dateModified":"2021-07-27T00:00:00-05:00","datePublished":"2021-07-27T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://lucapapariello.github.io/ml-blog/nlp/gensim/2021/07/27/gensim-shared-vocabulary.html"},"description":"A brief illustration of how to share a common vocabulary among different Gensim models.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/ml-blog/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://lucapapariello.github.io/ml-blog/feed.xml" title="Luca Papariello blog" /><link rel="shortcut icon" type="image/x-icon" href="/ml-blog/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
@@ -71,8 +71,8 @@ window.onload = wrap_img;
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Gensim: share vocabulary across models</h1><p class="page-description">A brief illustration of how to share a common vocabulary among different Gensim models.</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-07-27T00:00:00-05:00" itemprop="datePublished">
-        Jul 27, 2020
+    <h1 class="post-title p-name" itemprop="name headline">Gensim: share vocabulary across models</h1><p class="page-description">A brief illustration of how to share a common vocabulary among different Gensim models.</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2021-07-27T00:00:00-05:00" itemprop="datePublished">
+        Jul 27, 2021
       </time>
        • <span class="read-time" title="Estimated read time">
     
@@ -98,14 +98,14 @@ window.onload = wrap_img;
         <div class="pb-5 d-flex flex-wrap flex-justify-end">
           <div class="px-2">
 
-    <a href="https://github.com/LucaPapariello/ml-blog/tree/master/_notebooks/2020-07-27-gensim-shared-vocabulary.ipynb" role="button" target="_blank">
+    <a href="https://github.com/LucaPapariello/ml-blog/tree/master/_notebooks/2021-07-27-gensim-shared-vocabulary.ipynb" role="button" target="_blank">
 <img class="notebook-badge-image" src="/ml-blog/assets/badges/github.svg" alt="View On GitHub">
     </a>
 </div>
 
           
           <div class="px-2">
-    <a href="https://colab.research.google.com/github/LucaPapariello/ml-blog/blob/master/_notebooks/2020-07-27-gensim-shared-vocabulary.ipynb" target="_blank">
+    <a href="https://colab.research.google.com/github/LucaPapariello/ml-blog/blob/master/_notebooks/2021-07-27-gensim-shared-vocabulary.ipynb" target="_blank">
         <img class="notebook-badge-image" src="/ml-blog/assets/badges/colab.svg" alt="Open In Colab"/>
     </a>
 </div>
@@ -117,7 +117,7 @@ window.onload = wrap_img;
 #################################################
 ### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
 #################################################
-# file to edit: _notebooks/2020-07-27-gensim-shared-vocabulary.ipynb
+# file to edit: _notebooks/2021-07-27-gensim-shared-vocabulary.ipynb
 -->
 
 <div class="container" id="notebook-container">
@@ -480,7 +480,7 @@ Wall time: 37.1 s
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Data-streaming-[optional]">Data streaming [optional]<a class="anchor-link" href="#Data-streaming-[optional]"> </a></h1><p>This is a bonus section for those who have endured until this point. The motivation behind this post was to avoid unnecessary calculations, which makes particular sense when dealing with very large datasets. Very large datasets will most likely <em>not</em> fit in the memory, but in the above code we have loaded everything into RAM&mdash;ouch!</p>
-<p>Gensim models are smart enough to accept <em>iterables</em>, so that input data are read on-the-fly from disk. In this way, our corpus can be arbitrarily large (limited only by the size of our hard drive). We repeat here the steps of the above sections, but restructuring our code to take advantage of <em>data streaming</em>. We assume the corpus to be stored in a unique text file (<code>20news.txt</code>), which we get by writing the <code>data</code> list to file.</p>
+<p>Gensim models are smart enough to accept <em>iterables</em> that stream the input data directly from disk. In this way, our corpus can be arbitrarily large (limited only by the size of our hard drive). We repeat here the steps of the above sections, but restructuring our code to take advantage of <em>data streaming</em>. We assume the corpus to be stored in a unique text file (<code>20news.txt</code>), which we get by writing the <code>data</code> list to file.</p>
 
 </div>
 </div>
@@ -749,7 +749,7 @@ Wall time: 6min 31s
         theme="github-light"
         crossorigin="anonymous"
         async>
-</script><a class="u-url" href="/ml-blog/nlp/gensim/2020/07/27/gensim-shared-vocabulary.html" hidden></a>
+</script><a class="u-url" href="/ml-blog/nlp/gensim/2021/07/27/gensim-shared-vocabulary.html" hidden></a>
 </article>
       </div>
     </main><footer class="site-footer h-card">
