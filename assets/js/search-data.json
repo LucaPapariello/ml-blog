@@ -18,7 +18,7 @@
   
       ,"page1": {
           "title": "About Me",
-          "content": "This website is powered by fastpages 1. . a blogging platform that natively supports Jupyter notebooks in addition to other formats. &#8617; . |",
+          "content": "Hi! I’m Luca, welcome to my blog. . I’m a data scientist in Italy, where I build machine learning-powered solutions for enterprises. I’m a former theoretical physicist who has never stopped loving science and I am deeply passionate about technology. I try to learn something new every day. .",
           "url": "https://lucapapariello.github.io/ml-blog/about/",
           "relUrl": "/about/",
           "date": ""
