@@ -4,8 +4,6 @@ title: About Me
 permalink: /about/
 ---
 
-This website is powered by **[fastpages](https://github.com/fastai/fastpages)** [^1].
+Hi! I'm Luca, welcome to my blog. 
 
-
-
-[^1]:a blogging platform that natively supports Jupyter notebooks in addition to other formats.
+I'm a data scientist in Italy, where I build machine learning-powered solutions for enterprises. I'm a former theoretical physicist who has never stopped loving science and I am deeply passionate about technology. I try to learn something new every day.
