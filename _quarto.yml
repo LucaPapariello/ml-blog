@@ -1,0 +1,19 @@
+project:
+  type: website
+
+website:
+  title: "Luca's Blog"
+  navbar:
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/LucaPapariello
+      - icon: twitter
+        href: https://twitter.com/LPapariello
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+
+
+

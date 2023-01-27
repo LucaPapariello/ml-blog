@@ -1,0 +1,19 @@
+---
+title: "About"
+image: profile.jpg
+about:
+  template: jolla
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/LPapariello
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/luca-papariello-210b72150/
+    - icon: github
+      text: Github
+      href: https://github.com/LucaPapariello
+
+---
+
+After repeatedly finding help in a very welcoming community, I thought it was time to give back some of that warmth through this blog. It can be seen as a collection of personal notes and/or tricks discovered while working on my projects.
