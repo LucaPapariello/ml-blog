@@ -109,7 +109,7 @@
     "href": "index.html",
     "title": "📮 Posts",
     "section": "",
-    "text": "Entity embeddings of categorical variables\n\n\n\n\n\n\n\nregression\n\n\nrandom forests\n\n\nembeddings\n\n\npytorch\n\n\n\n\nBringing the power of neural nets to tree-based models.\n\n\n\n\n\n\nJul 3, 2023\n\n\nLuca Papariello\n\n\n\n\n\n\n  \n\n\n\n\nThe unknown label problem\n\n\n\n\n\n\n\nfastai\n\n\ncomputer vision\n\n\nmulti-class classification\n\n\nmulti-label classification\n\n\n\n\nWhy turning a multi-class classification task into a multi-label one might be a good idea.\n\n\n\n\n\n\nFeb 6, 2022\n\n\nLuca Papariello\n\n\n\n\n\n\n  \n\n\n\n\nGensim: share vocabulary across models\n\n\n\n\n\n\n\nnlp\n\n\ngensim\n\n\n\n\nA brief illustration of how to share a common vocabulary among different Gensim models.\n\n\n\n\n\n\nJul 27, 2021\n\n\nLuca Papariello\n\n\n\n\n\n\nNo matching items"
+    "text": "Entity embeddings of categorical variables\n\n\n\n\n\n\n\nregression\n\n\nrandom forests\n\n\nembeddings\n\n\npytorch\n\n\n\n\nBringing the power of neural nets to tree-based models.\n\n\n\n\n\n\nSep 19, 2023\n\n\nLuca Papariello\n\n\n\n\n\n\n  \n\n\n\n\nThe unknown label problem\n\n\n\n\n\n\n\nfastai\n\n\ncomputer vision\n\n\nmulti-class classification\n\n\nmulti-label classification\n\n\n\n\nWhy turning a multi-class classification task into a multi-label one might be a good idea.\n\n\n\n\n\n\nFeb 6, 2022\n\n\nLuca Papariello\n\n\n\n\n\n\n  \n\n\n\n\nGensim: share vocabulary across models\n\n\n\n\n\n\n\nnlp\n\n\ngensim\n\n\n\n\nA brief illustration of how to share a common vocabulary among different Gensim models.\n\n\n\n\n\n\nJul 27, 2021\n\n\nLuca Papariello\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
